@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site de cafe</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <!-- linking swiper css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,7 +19,7 @@
                 <h2 class="logo-text">coffee</h2>
             </a>
             <ul class="nav-menu">
-                button#
+                <button id="menu-close-button" class="fas fa-times"></button>
                 <li class="nav-item">
                     <a href="#" class="nav-link">home</a>
                 </li>
@@ -37,6 +39,7 @@
                     <a href="#" class="nav-link">Contact</a>
 
             </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
     <main>
@@ -60,7 +63,134 @@
                 </div>
             </div>
         </section>
+        <!-- About section -->
+        <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About Image" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-tittle">About Us</h2>
+                    <p class="text">At Coffee House in Yaounde, Cameroon,
+                        we pride ourselves on being a go-to destination for cofee lovers and conservation seekers alike.
+                        We're dedicated to providing an exceptional cofee experience in a copy and inviting atmosphere,
+                        where guests can relan, unwind, and enjoy their time in comfort. </p>
+                    <div class="social-link-lists">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu section -->
+        <section class="menu-section">
+            <h2 class="section-tittle">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="hot-beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Hot Beverages</h3>
+                            <p class="text">Discover our selection of rich and aromatic hot beverages,
+                                crafted to perfection.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="cold-beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Cold Beverages</h3>
+                            <p class="text">Experience our refreshing cold beverages,
+                                perfect for cooling down and satisfying your thirst.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruits and icy refreshing drink to make you feel refreshed.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="special-combo" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Try our exclusive combinations of hot and cold beverages,
+                                perfect for any mood.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="desserts" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Desserts</h3>
+                            <p class="text">Indulge in our delicious selection of sweet treats and desserts.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="burger-frenchfries" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Burgers & Fries</h3>
+                            <p class="text">Enjoy our delicious selection of burgers and crispy fries.</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+        </section>
+
+
+     <!-- Testimonials section -->
+        <section class="testimonials-section">
+         <h2 class="section-tittle">Testimonials</h2>
+         <div class="section-content">
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <ul class="testimonial-list">
+                        <li class="testimonial swiper-slide">
+                            <img src="images/user-1.jpg" alt="user-1" class="user-image">
+                            <h3 class="name">Sarah John</h3>
+                            <i class="feedback">"Great coffee and friendly service!"</i>
+                        </li>
+                         <li class="testimonial swiper-slide">
+                            <img src="images/user-2.jpg" alt="user-2" class="user-image">
+                            <h3 class="name">John Doe</h3>
+                            <i class="feedback">"Excellent food and great atmosphere!"</i>
+                        </li>
+                         <li class="testimonial swiper-slide">
+                            <img src="images/user-3.jpg" alt="user-3" class="user-image">
+                            <h3 class="name">james Smith</h3>
+                            <i class="feedback">"Best coffee shop in town!"</i>
+                        </li>
+                         <li class="testimonial swiper-slide">
+                            <img src="images/user-4.jpg" alt="user-4" class="user-image">
+                            <h3 class="name">Emily Johnson</h3>
+                            <i class="feedback">"Amazing drinks and cozy environment!"</i>
+                        </li>
+                         <li class="testimonial swiper-slide">
+                            <img src="images/user-5.jpg" alt="user-5" class="user-image">
+                            <h3 class="name">Michael Brown</h3>
+                            <i class="feedback">"Outstanding customer service and delicious food!"</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+        </section>
     </main>
+    
+
+
+    <!-- linking swiper js -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- linking custom js -->
+    <script src="script.js"></script>
 </body>
 
 </html>
